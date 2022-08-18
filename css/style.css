@@ -1,0 +1,115 @@
+body 
+{
+    color: rgb(191, 193, 200);
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background-image: url('../../images/banner.png');
+    background-color: rgb(30, 32, 43);
+    background-repeat: no-repeat;
+
+}
+.navbar
+{
+    background-color: #1e202b;
+}
+h1
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+.fix a
+{
+    color: #009ad8!important;
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+}
+ul li a
+{
+    transition: all 1s;
+} 
+ul li a:hover
+{
+    color: #009ad8!important;
+    border: 2px solid #009ad8;
+    border-radius: 20px;
+}
+.location .find
+{
+    background: rgb(30, 32, 43);
+    border-radius: 25px;
+    border: 2px solid #393c48;
+    color: white;
+}
+.find-loc
+{
+    top: 5px;
+    bottom: 13px;
+    right: 5px;
+    border-radius: 25px;
+}
+
+.site-footer
+{
+    background: rgb(38, 41, 54);
+}
+.site-footer .yourSub
+{
+    background: rgb(30, 32, 43);
+    border-radius: 25px;
+    border: 2px solid #393c48;
+    color: white;
+}
+.subscribe
+{
+    top: 5px;
+    bottom: 13px;
+    right: 5px;
+    border-radius: 25px;
+}
+
+.item
+{
+    border-radius: 30px;
+    background: rgb(38, 41, 54);
+
+}
+
+.contact-info
+{
+    height: 400px;
+    background: rgb(38, 41, 54);
+    border-radius: 10px;
+}
+form input, textarea
+{
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #393c48;
+    color: white;
+}
+form input:hover , textarea:hover
+{
+    border: 2px solid #009ad8;
+}
+form button
+{
+    border-radius: 10px;
+}
+
+.site-footer a i
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(30, 32, 43);
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+.site-footer a i:hover
+{
+    background-color: #009ad8;
+    color: #ffffff;
+}
